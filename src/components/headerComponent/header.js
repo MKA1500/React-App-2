@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import porscheLogo from '../../Assets/images/porsche_logo_PNG7.png';
+import audiLogo from './Audi_Logo.svg.png';
 
 class Header extends Component {
     render() {
         return (
-            <header className="mainHeader">
-                <img src={porscheLogo} className="brand-logo" />
+            <header className="main-header">
+                <img src={audiLogo} className="brand-logo" />
                 <nav>
                     <ul>
-                        <li>One</li>
-                        <li>Two</li>
-                        <li>Three</li>
+                        <li><a href="#">One</a></li>
+                        <li><a href="#">Two</a></li>
+                        <li><a href="#">Three</a></li>
                     </ul>
                 </nav>
             </header>
