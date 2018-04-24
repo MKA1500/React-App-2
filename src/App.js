@@ -1,4 +1,8 @@
-import React, { Component } from 'react';
+import React from "react";
+import ReactDOM from "react-dom";
+import { Provider } from "react-redux";
+import { createStore } from "redux";
+
 import logo from './logo.svg';
 import './App.css';
 
